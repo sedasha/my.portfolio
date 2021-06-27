@@ -1,0 +1,49 @@
+.GetTouch{
+    color:rgba(78, 76, 76, 0.7);
+    text-align: center;
+    font-size: 1rem;
+    font-weight: bold;
+    margin-top: 50px;
+    }
+.Icons{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    }
+.Icons div{
+    width: 25px;
+    height: 25px;
+    background-size: 100%;
+    background-position: center;
+}
+.Icons:hover{
+    cursor: pointer;
+}
+.Seda_info{
+    display: none;
+}
+@media only screen and (max-device-width: 480px){
+    .GetTouch{
+       display: none;
+    }
+    .Icons{
+        width: 60%;
+        margin:0 auto;
+    }
+    .Seda, .Developer{
+        margin: 0px;
+        padding: 0px;
+        color:rgba(78, 76, 76, 0.7);
+        text-align: center;
+        font-weight: 700;
+       
+    }
+    .Seda_info{
+        display: block;
+        padding: 7px;
+    }
+    .Icons div{
+        width: 20px;
+        height: 20px;
+    } 
+}

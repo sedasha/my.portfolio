@@ -1,0 +1,52 @@
+.text{
+    padding: 3px;
+    border-radius: 10px;
+    display: flex;
+    overflow: hidden;
+    height: 102px;
+    width: 90%;
+}
+
+.text p{
+    padding: 0px;
+    margin: 0px;
+    font-weight: 500;
+    overflow: hidden;
+}
+.wide{
+    /* overflow-y: visible; */
+    overflow-y: auto;
+    
+}
+.image{
+    width: 90%;
+    margin: 0 auto;
+    height: 200px;
+}
+.date{
+    align-self: flex-end;
+}
+.MiniBlog h3{
+    margin: 0px;
+    padding: 10px;
+    color:rgba(78, 76, 76, 0.9);
+   
+}
+.MiniBlog{
+    width: 30%;
+    /* background-color:rgba(248, 245, 244, 0.7); */
+    border: 2px solid gray;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding:20px 5px 2px 5px;
+    margin-bottom: 20px;
+}
+.text img {
+    width: 15px;
+    height: 15px;
+}
+.text img:hover{
+    cursor: pointer;
+}

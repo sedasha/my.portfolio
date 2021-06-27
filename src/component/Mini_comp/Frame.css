@@ -1,0 +1,47 @@
+.Frame{
+    position: relative;
+    border: 8px solid  rgb(250, 233, 233);
+    overflow:hidden;
+    box-shadow: 10px 7px 16px rgba(0, 0, 0, 0.664) ;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    box-sizing: border-box;
+    padding: 10px;
+    margin: 15px;
+    color:rgb(78, 76, 76);
+}
+.Frame::after{
+    position: absolute;
+    content: "";
+    width: 8px;
+    height: 100%;
+    left: -8px;
+    box-shadow: 5px 0px 8px rgba(109, 100, 100, 0.904);
+    background-color: transparent;
+}
+.Frame::before{
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 8px;
+    top: -8px;
+    left: 0;
+    background-color: transparent;
+    box-shadow: 5px 0px 8px rgba(0, 0, 0, 0.877);
+}
+.Frame h3{
+    font-family: tahoma;
+    font-weight: normal;
+    text-align: center;
+    margin: 0;
+    margin-bottom: 15px;
+}
+.Frame img{
+    width: 100%;
+}
+.Frame a{
+    width: 80%;
+}
