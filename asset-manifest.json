@@ -1,0 +1,37 @@
+{
+  "files": {
+    "main.css": "/my.portfolio/static/css/main.b5cc8953.chunk.css",
+    "main.js": "/my.portfolio/static/js/main.9f1e67d2.chunk.js",
+    "main.js.map": "/my.portfolio/static/js/main.9f1e67d2.chunk.js.map",
+    "runtime-main.js": "/my.portfolio/static/js/runtime-main.36c23747.js",
+    "runtime-main.js.map": "/my.portfolio/static/js/runtime-main.36c23747.js.map",
+    "static/js/2.325da840.chunk.js": "/my.portfolio/static/js/2.325da840.chunk.js",
+    "static/js/2.325da840.chunk.js.map": "/my.portfolio/static/js/2.325da840.chunk.js.map",
+    "index.html": "/my.portfolio/index.html",
+    "precache-manifest.e09f2ef2f252de56f469a6754f779f18.js": "/my.portfolio/precache-manifest.e09f2ef2f252de56f469a6754f779f18.js",
+    "service-worker.js": "/my.portfolio/service-worker.js",
+    "static/css/main.b5cc8953.chunk.css.map": "/my.portfolio/static/css/main.b5cc8953.chunk.css.map",
+    "static/js/2.325da840.chunk.js.LICENSE.txt": "/my.portfolio/static/js/2.325da840.chunk.js.LICENSE.txt",
+    "static/media/2.png": "/my.portfolio/static/media/2.dd6e1bde.png",
+    "static/media/3.png": "/my.portfolio/static/media/3.50d4a493.png",
+    "static/media/About.css": "/my.portfolio/static/media/about.f2d32c97.png",
+    "static/media/blog1.jpg": "/my.portfolio/static/media/blog1.f5d0165e.jpg",
+    "static/media/blog2.jpg": "/my.portfolio/static/media/blog2.e45b4d4d.jpg",
+    "static/media/blog3.jpg": "/my.portfolio/static/media/blog3.31bf9772.jpg",
+    "static/media/blog4.jpg": "/my.portfolio/static/media/blog4.80605992.jpg",
+    "static/media/blog5.jpg": "/my.portfolio/static/media/blog5.d95dd2bd.jpg",
+    "static/media/blog6.jpg": "/my.portfolio/static/media/blog6.987b4c11.jpg",
+    "static/media/github.png": "/my.portfolio/static/media/github.8a116e0a.png",
+    "static/media/linkedin.png": "/my.portfolio/static/media/linkedin.fd0d5546.png",
+    "static/media/Header.css": "/my.portfolio/static/media/profile.617cb333.jpg",
+    "static/media/Skills.css": "/my.portfolio/static/media/skills.7ac2092a.png",
+    "static/media/Blog.css": "/my.portfolio/static/media/wall.76480b21.jpg",
+    "static/media/yahoo.png": "/my.portfolio/static/media/yahoo.0b0fa8a7.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.36c23747.js",
+    "static/js/2.325da840.chunk.js",
+    "static/css/main.b5cc8953.chunk.css",
+    "static/js/main.9f1e67d2.chunk.js"
+  ]
+}
