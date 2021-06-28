@@ -16,7 +16,8 @@ function Contain() {
             <Route path='/skills'><Skills /> </Route>
             <Route path='/portfolio'><Portfolio /> </Route>
             <Route path='/blog'> <Blog /> </Route>
-            <Route path='/blog_content'><SingleBlog /></Route>
+            <Route path={`/blog/:contain`}> <SingleBlog /></Route>
+            
         </div>
     )
 }

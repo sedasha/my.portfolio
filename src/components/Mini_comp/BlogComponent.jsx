@@ -1,13 +1,19 @@
 import React, { useState } from 'react';
 import './BlogComponent.css';
-import { BrowserRouter as Router, Link } from "react-router-dom";
+import {useHistory} from 'react-router-dom';
+
+import SingleBlog from './SingleBlog';
 
 
-function BlogComponent({ heading, text, photo, date }) {
-
+function BlogComponent({ heading, text, photo, id}) {
+    const history = useHistory()
+    const changeLink =()=>{
+        history.push(`/blog/${id}`)
+    }
     return (
-        <div className='MiniBlog'>
-            <Link to={'/blog_content'}>
+        <div className='MiniBlog' onClick={changeLink}>
+           
+         
                 <img src={photo} className="image" alt="" />
                 <h3> {heading}</h3>
                 <div className='text'>
@@ -15,10 +21,10 @@ function BlogComponent({ heading, text, photo, date }) {
                         {text}
                     </p>
                 </div>
-                <div className='date'>{date}</div>
-
-            </Link>
+                <div className='date'></div>
+       
         </div>
+
     )
 }
 
